@@ -1,4 +1,4 @@
-import { dotnetAdapter } from '@cairul/plugin-kit/runner';
-import { trx } from '@cairul/plugin-kit/reports';
+import { dotnetAdapter } from '@cairul/pdk/runner';
+import { trx } from '@cairul/pdk/reports';
 
 export default dotnetAdapter({ traits: true, parse: trx });
