@@ -1,0 +1,17 @@
+{
+  "name": "@cairul/xunit-plugin",
+  "version": "0.1.0",
+  "type": "module",
+  "exports": "./index.mjs",
+  "files": [
+    "index.mjs",
+    "run.mjs"
+  ],
+  "engines": {
+    "node": ">=24"
+  },
+  "dependencies": {
+    "@cairul/plugin-kit": "workspace:^"
+  },
+  "license": "Apache-2.0"
+}
